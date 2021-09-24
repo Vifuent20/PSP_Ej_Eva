@@ -1,0 +1,131 @@
+package AE1;
+
+import java.util.Scanner;
+
+public class App {
+
+	Scanner sc = new Scanner(System.in);
+
+	public App() {
+
+	}
+
+	public void sayHello() {
+		System.out.println("Hola Mundo");
+
+	}
+//1
+	public void nombres1() {
+		String lista[] = { "Rene", "Pau", "Ripoll", "David", "Joan", "Ximo" };
+
+		for (int i = 0; i < lista.length; i++) {
+			System.out.println(lista[i]);
+		}
+	}
+//2
+	public void lista2() {
+		String[] lista = new String[5];
+		//FALTA ACABARLO
+
+	}
+//3
+	public void sumaPares() {
+		System.out.println("★Calculo de numeros pares★");
+		System.out.println("Dame un numero par y calculare hasta llegar a el");
+
+		int num = sc.nextInt();
+		int par = 0;
+		
+		if (num % 2 == 0) {
+			
+			for (int i = 0; i < num; i++);{
+				
+				   System.out.printf("%1s %s\n","",num);
+				   par += num	;}
+
+				System.out.println("La suma es:" + par);
+			}else {
+			System.out.println("No me has dado un numero par");
+		}
+	}
+
+//4
+	public void calculoFactorial() {
+
+		long factorial = 1;
+		int num;
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Introduce un número: ");
+
+		num = sc.nextInt();
+
+		for (int i = num; i > 0; i--) {
+			factorial = factorial * i;
+		}
+
+		System.out.println("El factorial de " + num + " es: " + factorial);
+
+		sc.close();
+	}
+//5
+	public void arrayMayor() {
+		
+		     
+	        Scanner sc = new Scanner(System.in);
+	       
+	        System.out.print("Dime el tamaño del array: ");
+	        int n = sc.nextInt();
+	        int array [] = new int [n];
+	       
+	        for (int i = 0; i < array.length; i++) {
+	            System.out.print("Dime el primer número "+(i+1)+": ");
+	            array [i] = sc.nextInt();
+	        }
+	       
+	        int mayor ;
+	        mayor = array [0];
+	       
+	        for (int i = 0; i < array.length; i++) {
+	            if(array [i] > mayor) {
+	                mayor = array[i];
+	            }
+
+	        }
+	        System.out.println("El numero mas grande es: "+mayor);
+	        sc.close();
+	} 
+//6
+	public void sumaInversa() {
+		Scanner sc = new Scanner(System.in);
+		int array [] = new int [5];
+		
+		 for (int i = 0; i < array.length; i++) {
+			 
+	            System.out.print("Dime el número "+(i+1)+": ");
+	            array [i] = sc.nextInt();
+	}
+		 
+		 System.out.println("Numeros introducidos a la inversa " + array[4] +" "+ array[3]  +" "+ array[2]  +" "+ array[1]  +" "+ array[0]);
+		 System.out.println("La suma de los numeros introducidos es " + (array[4]  + array[3] + array[2] + array[1] + array[0]));
+		 sc.close();
+}
+//7
+	public void calculoAños() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Dime tu nombre");
+		String nom = sc.next();
+		System.out.println("Dime cuantos años llevas programando");
+		int num = sc.nextInt();
+		
+		if (num <)
+		
+		
+		
+		
+		
+		
+	}
+	
+}

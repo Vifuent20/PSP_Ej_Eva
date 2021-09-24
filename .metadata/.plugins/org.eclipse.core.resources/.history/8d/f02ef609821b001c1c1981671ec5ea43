@@ -1,0 +1,16 @@
+package AE1;
+
+public class ae1ej2 {
+
+	public static void main(String[] args) {
+		
+
+		String lista[] = {"Rene", "Pau", "Ripoll", "David", "Joan", "Ximo"};
+		
+		for (int i = 0; i < lista.length; i++) {
+			System.out.println(lista[i]);
+		}
+		
+	}
+
+}
